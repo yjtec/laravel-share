@@ -1,0 +1,25 @@
+{
+  "name": "yjtec/laravel-share",
+  "description": "laravel share",
+  "type": "library",
+  "authors": [{
+    "name": "kidkang",
+    "email": "723616880@qq.com"
+  }],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Yjtec\\Share\\": "src/"
+    }
+  },
+  "require": {
+    "yjtec/support": "dev-master"
+  },
+  "extra": {},
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
