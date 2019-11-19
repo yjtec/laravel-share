@@ -15,7 +15,17 @@
   "require": {
     "yjtec/support": "dev-master"
   },
-  "extra": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yjtec\\LaravelShare\\Providers\\ShareServiceProvider", 
+        "Yjtec\\LaravelShare\\Providers\\RouteServiceProvider"
+      ],
+      "aliases": {
+        "share": "Yjtec\\LaravelShare\\Facades\\Share"
+      }
+    }
+  },
   "repositories": {
     "packagist": {
       "type": "composer",
