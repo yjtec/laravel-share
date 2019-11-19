@@ -13,7 +13,7 @@
     }
   },
   "require": {
-    "yjtec/support": "dev-master"
+    "yjtec/support": "^1.0"
   },
   "extra": {
     "laravel": {
