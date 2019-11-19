@@ -10,7 +10,7 @@ class Jsapi extends Resource
             'nonceStr'  => $this['nonceStr'],
             'wxticket'  => $this['wxticket'],
             'signature' => $this['signature'],
-            'appid'     => $this['appid'],
+            'appId'     => $this['appid'],
         ];
     }
 }
